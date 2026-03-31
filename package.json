@@ -1,5 +1,15 @@
 {
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+},
   "dependencies": {
     "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.1.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2"
   }
 }
+
